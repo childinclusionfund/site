@@ -11,37 +11,66 @@
     gtag('config', 'UA-180193814-1');
   </script>
   <script src="https://kit.fontawesome.com/2e8af351a5.js" crossorigin="anonymous"></script>
-  <title>Child Inclusion Fund</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
   <link rel="stylesheet" href="main.css">
+  <title>Child Inclusion Fund</title>
 </head>
 
 <body class="main root">
-  <div class="header">
+  <div id="header" class="header">
     <div class="header__text">
       <h1>Child Inclusion Fund</h1>
     </div>
     <div class="header__logo">
     </div>
   </div>
-  <div class="purpose">
-    <div class="purpose__overview">
+
+  <div class="chunk">
+    <div class="chunk__overview">
       Our Purpose
     </div>
-    <div class="purpose__explanation">
+    <div class="chunk__text">
       Enhancing the academic & childhood experience through inclusion while decreasing stimatization.
     </div>
   </div>
-  <div>
 
+  <div class="chunk">
+    <div class="chunk__overview">
+      How do does it work?
+    </div>
+    <div class="chunk__text">
+      Child Inclusion Fund teams up with schools,
+      anonymously supporting children in need
+      handling expenses such as:
+    </div>
+  </div>
+  <div class="chunk">
+    <div class="chunk__overview">
+      What expenses are covered?
+    </div>
+    <div class="chunk__list">
+      <ul>
+        <li>
+          Picture Day packages
+        </li>
+        <li>
+          Field Trips
+        </li>
+        <li>
+          Book fares
+        </li>
+        <li>
+          Activity fees
+        </li>
+      </ul>
+    </div>
   </div>
   <div class="footer">
     <div class="footer__contact-info email">
-        <div class="email__icon">
-          <i class="far fa-envelope"></i>
-        </div>
-        <div class="email__address">
-          childinclusionfund@gmail.com
-        </div>
+      <a class="email__link" href="mailto:childinclusionfund@gmail.com">
+        <i class="far fa-envelope"></i>
+        Contact Us
+      </a>
     </div>
     <div class="footer__fundly">
     </div>
@@ -57,4 +86,17 @@
   </div>
 </body>
 
+<script type="text/javascript">
+  window.onscroll = () => { stickyHeader() };
+  const header = document.getElementById("header");
+  const sticky = header.offsetTop;
+  const stickyHeader = () => {
+    console.log('scrollin')
+    if (window.pageYOffset > sticky) {
+      header.classList.add("header--sticky");
+    } else {
+      header.classList.remove("header--sticky");
+    }
+  }
+</script>
 </html>
