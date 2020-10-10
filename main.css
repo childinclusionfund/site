@@ -1,3 +1,48 @@
-h1 {
-  color: darkblue;
+:root {
+  --bg-color-main: #FAF3DD;
+  --bg-color-secondary: #FFA69E;
+  --color-3: #B8F2E6;
+  --color-4: #AED9E0;
+  --text-color: #5E6472;
+}
+.main {
+  background-color: var(--bg-color-main);
+  color:var(--text-color);
+
+  display: flex;
+  flex-direction: column;
+
+  font-size: 3rem;
+}
+.header {
+  background-color: var(--bg-color-secondary);
+  color: var(--bg-color-main);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.purpose {
+  align-items: center;
+  font-size: 3rem;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__legal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  padding: 2px;
+  margin: 2px;
 }
