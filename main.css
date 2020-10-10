@@ -46,6 +46,13 @@
   padding: 1rem;
   padding-top: 3rem;
   margin-top: 3rem;
+  padding-left: 3rem;
+}
+.chunk:nth-child(odd) {
+  justify-content: right;
+  padding-left: 0;
+  padding-right: 3rem;
+  text-align: right;
 }
 .chunk__overview {
   flex: 1;
@@ -55,14 +62,15 @@
   justify-content: left;
   justify-self: left;
 }
-.chunk:nth-child(odd) {
-  justify-content: right;
-}
 .chunk:nth-child(odd) .chunk__overview {
   text-align: right;
 }
 .chunk__text {
   flex: 2;
+  padding-left: 1rem;
+}
+.chunk:nth-child(odd) .chunk__text {
+  padding-right: 1rem;
 }
 .chunk__list {
   flex: 1;
