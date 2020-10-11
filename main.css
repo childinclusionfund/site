@@ -93,8 +93,6 @@ a {
   margin: 1rem;
   max-width: 60%;
 }
-.chunk__list li:nth-child(odd)  {
-}
 
 
 .footer {
@@ -125,4 +123,31 @@ a {
 }
 .footer i {
   color: var(--text-color-secondary)
+}
+
+
+@media only screen  and (min-width : 1000px) {
+  .header {
+    flex-direction: row;
+  }
+  .header__text {
+    padding-left: 2rem;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .footer__legal {
+    margin-top: 0;
+    margin-left: auto;
+    padding-right: 2rem;
+  }
+  .contact-info__item {
+    font-size: 1rem;
+    padding: 0 2rem;
+  }
+  .contact-info__item:first-child {
+    padding-left: 3rem;
+  }
 }
