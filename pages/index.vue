@@ -7,10 +7,23 @@
         'Enhancing the academic & childhood experience through inclusion while decreasing stigmatization.'
       ]"
     />
+<<<<<<< HEAD
+    <Chunk
+      overview="How does it work?"
+      v-bind:text="[
+        'Child Inclusion Fund teams up with schools who identify children in need of financial assistance, providing funding for expenses not traditionally covered by existing financial assistance programs.',
+      ]"
+    />
+    <Chunk 
+      overview="What sort of expenses are covered?"
+      v-bind:list="[
+        'Picture Day', 'Field Trips', 'Book Fairs', 'Pretzel Day', 'The list goes on...'
+=======
     <Chunk 
       overview="What sort of expenses are covered?"
       v-bind:list="[
         'picture day', 'field trips', 'book fairs', 'pretzel day', 'the list goes on...'
+>>>>>>> origin/master
       ]"
     />
     <Chunk 
