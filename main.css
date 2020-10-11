@@ -133,7 +133,8 @@ a {
   .header__text {
     padding-left: 2rem;
   }
-
+}
+@media only screen  and (min-width : 1000px), only screen and (orientation: landscape) {
   .footer {
     flex-direction: row;
     justify-content: flex-start;
