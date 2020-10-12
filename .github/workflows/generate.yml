@@ -24,6 +24,5 @@ jobs:
         git config --global user.email 'childinclusionfund@users.noreply.github.com'
         echo "adding new static site"
         git add docs/* --force
-        git checkout deploy
         git commit -m "regenerating docs"
         git push
