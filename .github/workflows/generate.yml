@@ -14,7 +14,6 @@ jobs:
         node-version: '12.x'
     - run: npm ci
     - run: npm run build
-    - uses: actions/checkout@v2
     - run: rm docs/ -rRf
     - run: git config --global user.name 'childinclusionfund'
     - run: git config --global user.email 'childinclusionfund@users.noreply.github.com'
