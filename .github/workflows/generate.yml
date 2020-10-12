@@ -13,11 +13,16 @@ jobs:
       with:
         node-version: '12.x'
     - run: |
-        npm ci
-        npm run build
+        ls -ltra
         rm docs/ -rRf
+        ls -ltra
+        npm ci
+        ls -ltra
+        npm run build
+        ls -ltra
         git config --global user.name 'childinclusionfund'
         git config --global user.email 'childinclusionfund@users.noreply.github.com'
-        git add docs/
+        ls -ltra
+        git add docs/*
         git commit -m "regenerating docs"
         git push
