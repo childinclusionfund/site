@@ -11,6 +11,7 @@ export default {
     ],
   },
   head: {
+    title: 'Child Inclusion Fund - Providing financial assistance for Picture Day, Field Trips, Book Fairs, etc.',
     script: [
       {
         src: 'https://kit.fontawesome.com/2e8af351a5.js',
