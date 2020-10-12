@@ -4,14 +4,19 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js
+    - name: Build
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
     - run: npm ci
     - run: npm run build
+    - name: Commit
+    - run: rm docs/ -rRf
+    - run: git config --global user.name 'childinclusionfund'
+    - run: git config --global user.email 'childinclusionfund@users.noreply.github.com'
+    - run: git add docs/
+    - run: git commit -m "regenerating docs"
+    - run: git push
