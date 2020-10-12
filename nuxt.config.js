@@ -1,7 +1,9 @@
 export default {
   target: 'static',
   generate: {
-    dir: 'docs'
+    devtools: true,
+    dir: 'docs',
+    subFolders: false,
   },
   components: {
     dirs: [

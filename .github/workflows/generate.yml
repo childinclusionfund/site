@@ -14,8 +14,6 @@ jobs:
         node-version: '12.x'
     - name: Generate
       run: |
-        echo "removing old static site"
-        rm docs/ -rRf
         npm ci
         npm run build
         echo "build done"

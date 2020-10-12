@@ -1,8 +1,7 @@
 {
   "name": "child-inclusion-fund--site",
   "scripts": {
-    "dev": "nuxt dev",
-    "prod": "nuxt start",
+    "dev": "nuxt dev --ssr=false",
     "build": "nuxt generate"
   },
   "dependencies": {},
