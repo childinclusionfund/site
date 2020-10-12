@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: |
+      run: |
         echo "removing old static site"
         rm docs/ -rRf
         npm ci
