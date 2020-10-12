@@ -16,7 +16,7 @@
     <Chunk 
       overview="What sort of expenses are covered?"
       v-bind:list="[
-        'Picture Day', 'Field Trips', 'Book Fairs', 'Pretzel Day', 'The list goes on...'
+        'Picture Day', 'Field Trips', 'Book Fairs', 'The list goes on...'
       ]"
     />
     <Chunk 
