@@ -19,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      uses: actions/checkout@v2
-      run: rm docs/ -rRf
-      run: git config --global user.name 'childinclusionfund'
-      run: git config --global user.email 'childinclusionfund@users.noreply.github.com'
-      run: git add docs/
-      run: git commit -m "regenerating docs"
-      run: git push
+    - uses: actions/checkout@v2
+    - run: rm docs/ -rRf
+    - run: git config --global user.name 'childinclusionfund'
+    - run: git config --global user.email 'childinclusionfund@users.noreply.github.com'
+    - run: git add docs/
+    - run: git commit -m "regenerating docs"
+    - run: git push
