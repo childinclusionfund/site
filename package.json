@@ -1,12 +1,13 @@
 {
   "name": "child-inclusion-fund--site",
   "scripts": {
-    "dev": "nuxt generate"
+    "dev": "nuxt dev",
+    "prod": "nuxt start",
+    "build": "nuxt generate"
   },
-  "dependencies": {
-    "nuxt": "^2.14.6"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "nuxt": "^2.14.6",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.3"
   }
