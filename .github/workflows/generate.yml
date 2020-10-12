@@ -13,16 +13,14 @@ jobs:
       with:
         node-version: '12.x'
     - run: |
-        ls -ltra
+        echo "removing old static site"
         rm docs/ -rRf
-        ls -ltra
         npm ci
-        ls -ltra
         npm run build
-        ls -ltra
+        echo "build done"
         git config --global user.name 'childinclusionfund'
         git config --global user.email 'childinclusionfund@users.noreply.github.com'
-        ls -ltra
+        echo "adding new static site"
         git add docs/*
         git commit -m "regenerating docs"
         git push
