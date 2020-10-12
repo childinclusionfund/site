@@ -13,8 +13,11 @@ jobs:
         node-version: '12.x'
     - run: npm ci
     - run: npm run build
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
     - uses: actions/checkout@v2
-    - name: Commit
+    - name: Commit docs
     - run: rm docs/ -rRf
     - run: git config --global user.name 'childinclusionfund'
     - run: git config --global user.email 'childinclusionfund@users.noreply.github.com'
