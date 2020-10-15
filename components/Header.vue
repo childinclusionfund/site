@@ -23,33 +23,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  font-size: 2.75rem;
   
   &__text {
-  flex: 8;
-
-  font-family: "Montserrat";
-  font-weight: 500;
+    font-family: "Montserrat";
+    font-weight: 500;
   }
 
   &__sub-text {
-  flex: 3;
-
-  font-family: "Satisfy";
-  font-weight: 300;
+    font-family: "Satisfy";
+    font-weight: 300;
   }
-
-  &--sticky {
-  position: fixed;
-  background-color: var(--bg-color-secondary);
-  color: var(--bg-color-main);
-  width: 100%;
-  top: 0;
+  h1 { 
+    padding: 1rem 0;
+    margin: 0;
   }
-
   @media only screen  and (min-width : 1000px) {
+    font-size: 2rem;
     flex-direction: row;
     &__text {
       padding-left: 2rem;
+    }
+    &__sub-text {
+      padding-left: 5rem;
     }
   }
 }
