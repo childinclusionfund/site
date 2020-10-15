@@ -7,12 +7,14 @@
         'Enhancing the academic & childhood experience through inclusion while decreasing stigmatization.'
       ]"
     />
+    <hr>
     <Chunk
       overview="How does it work?"
       v-bind:text="[
         'Child Inclusion Fund teams up with schools who identify children in need of financial assistance, providing funding for expenses not traditionally covered by existing financial assistance programs.',
       ]"
     />
+    <hr>
     <Chunk 
       overview="What sort of expenses are covered?"
       v-bind:list="[
@@ -22,6 +24,7 @@
         {icon: 'fas fa-ellipsis-h', text: 'Other activites'},
       ]"
     />
+    <hr>
     <Chunk 
       class="last"
       overview="Our Reasoning"
@@ -82,5 +85,9 @@ body {
 }
 a {
   color: var(--text-color);
+}
+hr {
+  border-radius: 5px;
+  width: 70%;
 }
 </style>

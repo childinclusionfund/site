@@ -37,7 +37,9 @@ i {
   color: var(--text-color-secondary);
 }
 .icon {
-  background-color: var(--background-color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   display: flex;
   flex-direction: column;
   align-items: center;
