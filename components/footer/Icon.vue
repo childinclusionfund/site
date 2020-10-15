@@ -40,7 +40,9 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   &__label {
     padding-top: .25rem;
     font-size: 1.25rem;
