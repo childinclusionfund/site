@@ -29,11 +29,15 @@
   &__text {
     font-family: "Montserrat";
     font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   &__sub-text {
     font-family: "Satisfy";
     font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
   }
   h1 { 
     padding: 1rem 0;
