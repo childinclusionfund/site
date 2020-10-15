@@ -36,7 +36,7 @@
   flex-direction: column;
   background-color: var(--bg-color-secondary);
   width: 100%;
-  height: 10%;
+  padding: 1rem;
   color: var(--text-color-secondary);
   &__contact-info {
     display: flex;
