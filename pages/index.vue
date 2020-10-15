@@ -16,7 +16,10 @@
     <Chunk 
       overview="What sort of expenses are covered?"
       v-bind:list="[
-        'Picture Day', 'Field Trips', 'Book Fairs', 'The list goes on...'
+        {icon: 'fas fa-camera', text: 'Picture Day'},
+        {icon: 'fas fa-bus', text: 'Field Trips'},
+        {icon: 'fas fa-book', text: 'Book Fairs'},
+        {icon: 'fas fa-ellipsis-h', text: 'Other activites'},
       ]"
     />
     <Chunk 
@@ -47,9 +50,9 @@ export default {
 <style lang="scss" scoped>
 body {
   --bg-color-main: #FAF3DD;
+  --bg-color-secondary: #0ABAB5;
   --color-1: #B8F2E6;
   --color-2: #AED9E0;
-  --bg-color-secondary: #0ABAB5;
   --text-color: #5E6472;
   --text-color-secondary: #fefefe;
   background-color: var(--bg-color-main);
@@ -73,11 +76,11 @@ body {
 
   background-color: var(--bg-color-main);
   color:var(--text-color);
+  .last {
+    padding-bottom: 15rem;
+  }
 }
 a {
   color: var(--text-color);
-}
-.last {
-  padding-bottom: 2rem;
 }
 </style>
