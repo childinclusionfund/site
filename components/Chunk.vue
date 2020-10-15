@@ -9,7 +9,10 @@
     <div class="chunk__text chunk__list" v-if="list">
       <ul>
         <li v-for="value in list" :key="value">
-          {{ value }}
+          <div>
+            <i :class="value.icon" />
+            {{ value.text }}
+          </div>
         </li>
       </ul>
     </div>
