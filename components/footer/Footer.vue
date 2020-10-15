@@ -30,13 +30,12 @@
 .footer {
   position: fixed;
   bottom: 0;
-  padding: 0;
   z-index: 2;
   display: flex;
   flex-direction: column;
   background-color: var(--bg-color-secondary);
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0;
   color: var(--text-color-secondary);
   &__contact-info {
     display: flex;
