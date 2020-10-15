@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
 
-  font-size: 2.75rem;
+  font-size: 2.5rem;
   
   &__text {
     font-family: "Montserrat";
