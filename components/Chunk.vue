@@ -6,11 +6,11 @@
     <div class="chunk__text" v-for="t in text" :key="t">
       {{ t }}
     </div>
-    <div class="chunk__text chunk__list" v-if="list">
+    <div class="chunk__text chunk__list list" v-if="list">
       <ul>
         <li v-for="value in list" :key="value">
           <div>
-            <i :class="value.icon" />
+            <i class="list__icon" :class="value.icon" />
             {{ value.text }}
           </div>
         </li>
@@ -71,6 +71,9 @@ export default {
       padding: 1rem;
       margin: 1rem;
       max-width: 60%;
+    }
+    list__icon {
+      padding-right: 1rem;
     }
   }
 }
