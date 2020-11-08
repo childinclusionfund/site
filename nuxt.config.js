@@ -3,7 +3,7 @@ export default {
   generate: {
     devtools: true,
     dir: 'docs',
-    subFolders: false,
+    subFolders: true,
   },
   components: {
     dirs: [
