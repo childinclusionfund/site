@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      ref: deploy
+      with:
+        ref: deploy
     - name: Build
       uses: actions/setup-node@v1
       with:
