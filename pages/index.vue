@@ -54,34 +54,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-body {
-  --bg-color-main: #FAF3DD;
-  --bg-color-secondary: #0ABAB5;
-  --color-1: #B8F2E6;
-  --color-2: #AED9E0;
-  --text-color: #5E6472;
-  --text-color-secondary: #fefefe;
-  background-color: var(--bg-color-main);
-  color:var(--text-color);
-}
 .main {
-  --bg-color-main: #FAF3DD;
-  --color-1: #B8F2E6;
-  --color-2: #AED9E0;
-  --bg-color-secondary: #0ABAB5;
-  --text-color: #5E6472;
-  --text-color-secondary: #fefefe;
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0;
-  margin: 0;
 
   font-family: 'Rubik', sans-serif; 
   font-size: 2.5rem;
 
-  background-color: var(--bg-color-main);
-  color:var(--text-color);
   .last {
     padding-bottom: 15rem;
   }
@@ -92,5 +72,20 @@ a {
 hr {
   border-radius: 5px;
   width: 70%;
+}
+</style>
+
+<style lang="scss">
+body {
+  --bg-color-main: #FAF3DD;
+  --bg-color-secondary: #0ABAB5;
+  --color-1: #B8F2E6;
+  --color-2: #AED9E0;
+  --text-color: #5E6472;
+  --text-color-secondary: #fefefe;
+  background-color: var(--bg-color-main);
+  color:var(--text-color);
+  padding: 0;
+  margin: 0;
 }
 </style>
