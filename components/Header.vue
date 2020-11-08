@@ -4,7 +4,7 @@
       <h1>Child Inclusion Fund</h1>
     </div>
     <div class="header__sub-text">
-      Enhancing and equalizing the academic experience.
+      Enhancing and Equalizing the Academic Experience
     </div>
     <div class="header__logo">
     </div>

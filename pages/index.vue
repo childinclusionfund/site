@@ -24,7 +24,7 @@
         {icon: 'fas fa-bed', text: 'Pajama Day'},
         {icon: 'fas fa-tshirt', text: 'Spirit Wear'},
         {icon: 'fas fa-gift', text: 'Holiday Gift Shop'},
-        {icon: 'fas fa-ellipsis-h', text: 'Other activites'},
+        {icon: '', text: 'Other activites'},
       ]"
     />
     <hr>
@@ -32,9 +32,10 @@
       class="last"
       overview="Our Reasoning"
       v-bind:text="[
-        'Many students in our schools are left out of activities and experiences due to financial hardships their families face.',
-        'Child Inclusion Fund helps to alleviate some of the difficult decisions families have to make: money toward food or money for a school trip? While this dilemma may be an easy one when prioritizing needs, often times it leaves children left out or stigmatized. Child Inclusion Fund helps by aiding the family to obtain both.',
-        'Child Inclusion Fund believes that children deserve an equalized opportunity to enriched and enhanced academic experiences.',
+        'From physical and mental health to graduation and crime rates, family income has a varied impact on a child’s well-being.',
+        'While many government and community-ran programs assist with basic necessities, not many are available to help children and their families in enhancing the quality of life and experiences in the school setting.',
+        'Stigmas associated with low income decreases self-esteem and peer acceptance.',
+        'Research suggests that interventions during early childhood may be most important in reducing this impact on children.',
       ]"
     />
     <Footer />
@@ -64,6 +65,9 @@ export default {
 
   .last {
     padding-bottom: 15rem;
+    @media only screen  and (min-width : 1000px), only screen and (orientation: landscape) {
+      padding-bottom: 5rem;
+    }
   }
 }
 a {
