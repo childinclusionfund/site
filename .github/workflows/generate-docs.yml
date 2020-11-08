@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      with:
+      with: 
         ref: deploy
     - name: Build
       uses: actions/setup-node@v1
@@ -19,7 +19,7 @@ jobs:
         node-version: '12.x'
     - name: Generate
       run: |
-        git merge origin/master
+        git merge master
         npm ci
         npm run build
         echo "build done"
