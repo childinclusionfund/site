@@ -1,5 +1,5 @@
 <template>
-  <body class="main">
+  <div class="main">
     <Header />
     <Chunk 
       overview="Our Purpose"
@@ -21,6 +21,9 @@
         {icon: 'fas fa-camera', text: 'Picture Day'},
         {icon: 'fas fa-bus', text: 'Field Trips'},
         {icon: 'fas fa-book', text: 'Book Fairs'},
+        {icon: 'fas fa-bed', text: 'Pajama Day'},
+        {icon: 'fas fa-tshirt', text: 'Spirit Wear'},
+        {icon: 'fas fa-gift', text: 'Holiday Gift Shop'},
         {icon: 'fas fa-ellipsis-h', text: 'Other activites'},
       ]"
     />
@@ -35,7 +38,7 @@
       ]"
     />
     <Footer />
-  </body>
+  </div>
 </template>
 
 <script>

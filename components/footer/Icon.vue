@@ -1,6 +1,6 @@
 <template>
   <div class="icon">
-    <a class="icon__link" aria-label="linkLabel" href="linkUrl" >
+    <a class="icon__link" aria-label="linkLabel" :href="linkUrl" >
       <i :class="iconClass" class="icon__img"></i>
     </a>
     <div class="icon__label">
@@ -47,7 +47,7 @@ i {
     padding-top: .25rem;
     font-size: 1.25rem;
   }
-  @media only screen  and (min-width : 1000px), only screen and (orientation: landscape) {
+  @media only screen and (min-width : 1000px), only screen and (orientation: landscape) {
     flex-direction: row;
     &__label {
       padding-left: .5rem;

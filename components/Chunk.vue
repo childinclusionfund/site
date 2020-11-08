@@ -9,9 +9,13 @@
     <div class="chunk__text chunk__list list" v-if="list">
       <ul>
         <li v-for="value in list" :key="value">
-          <div>
-            <i class="list__icon" :class="value.icon" />
-            {{ value.text }}
+          <div class="list__item item">
+            <div class="item__icon">
+              <i :class="value.icon" />
+            </div>
+            <div class="item__text">
+              {{ value.text }}
+            </div>
           </div>
         </li>
       </ul>
@@ -48,7 +52,7 @@ export default {
   font-size: 3rem;
   padding: 1rem;
   padding-top: 3rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding-left: 3rem;
   &__overview {
     flex: 1;
@@ -67,13 +71,19 @@ export default {
   &__list {
     flex: 1;
     li {
-      list-style: none;
-      padding: 1rem;
-      margin: 1rem;
-      max-width: 60%;
+      list-style-type: none;
     }
-    list__icon {
-      padding-right: 1rem;
+    .item {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 1rem;
+      &__icon {
+        align-self: right;
+      }
+      &__text {
+        text-align: left;
+        padding-left: 1rem;
+      }
     }
   }
 }
