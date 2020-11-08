@@ -2,3 +2,4 @@ private.json
 node_modules
 .nuxt
 docs/
+dist/
