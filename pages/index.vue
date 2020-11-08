@@ -24,7 +24,7 @@
         {icon: 'fas fa-bed', text: 'Pajama Day'},
         {icon: 'fas fa-tshirt', text: 'Spirit Wear'},
         {icon: 'fas fa-gift', text: 'Holiday Gift Shop'},
-        {icon: '', text: 'Other activites'},
+        {icon: 'fas fa-ellipsis-h', text: 'Other activites'},
       ]"
     />
     <hr>
@@ -32,10 +32,11 @@
       class="last"
       overview="Our Reasoning"
       v-bind:text="[
-        'From physical and mental health to graduation and crime rates, family income has a varied impact on a child’s well-being.',
-        'While many government and community-ran programs assist with basic necessities, not many are available to help children and their families in enhancing the quality of life and experiences in the school setting.',
-        'Stigmas associated with low income decreases self-esteem and peer acceptance.',
-        'Research suggests that interventions during early childhood may be most important in reducing this impact on children.',
+        'From physical and mental health to graduation and crime rates, family income has a varied impact on a child’s well-being. While many government and community-ran programs assist with basic necessities, not many are available to help children and their families in enhancing the quality of life and experiences in the school setting.',
+        'Stigmas associated with low income decreases self-esteem and peer acceptance. Research suggests that interventions during early childhood may be most important in reducing this impact on children.',
+        'Child Inclusion Fund helps alleviate some of the difficult decisions some families have to make.',
+        'For example, families are forced to choose between purchasing school pictures or buying groceries.',
+        'Child Inclusion Fund believes that children deserve an equalized opportunity to enriched academic experiences.',
       ]"
     />
     <Footer />

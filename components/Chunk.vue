@@ -6,20 +6,14 @@
     <div class="chunk__text" v-for="t in text" :key="t">
       {{ t }}
     </div>
-    <div class="chunk__text chunk__list list" v-if="list">
-      <ul>
-        <li v-for="value in list" :key="value">
-          <div class="list__item item">
-            <div class="item__icon">
-              <i :class="value.icon" />
-            </div>
-            <div class="item__text">
-              {{ value.text }}
-            </div>
-          </div>
-        </li>
-      </ul>
-    </div>
+    <ul class="fa-ul" v-if="list">
+      <li v-for="value in list" :key="value">
+        <span class="fa">
+          <i class="icon" :class="value.icon" />
+            {{ value.text }}
+        </span>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -37,9 +31,9 @@ export default {
     list: {
       type: Array,
       required: false,
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -68,22 +62,16 @@ export default {
     flex: 2;
     padding: 1rem;
   }
-  &__list {
-    flex: 1;
-    li {
-      list-style-type: none;
-    }
-    .item {
-      display: flex;
-      flex-direction: row;
-      padding-bottom: 1rem;
-      &__icon {
-        align-self: right;
-      }
-      &__text {
-        text-align: left;
-        padding-left: 1rem;
-      }
+  ul {
+    margin-left: 4rem;
+  }
+  li {
+    padding-bottom: 1rem;
+  }
+  li:last-child {
+    padding-bottom: 0;
+    .icon {
+      visibility: hidden;
     }
   }
 }
