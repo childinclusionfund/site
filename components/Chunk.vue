@@ -10,7 +10,9 @@
       <li v-for="value in list" :key="value">
         <span class="fa">
           <i class="icon" :class="value.icon" />
-            {{ value.text }}
+          <span class="icon__text">
+          {{ value.text }}
+          </span>
         </span>
       </li>
     </ul>
@@ -70,9 +72,10 @@ export default {
   }
   li:last-child {
     padding-bottom: 0;
-    .icon {
-      visibility: hidden;
-    }
   }
+}
+.icon__text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
 }
 </style>
