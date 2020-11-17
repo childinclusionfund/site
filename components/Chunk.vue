@@ -86,7 +86,7 @@ export default {
   }
 }
 .icon__text {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 2.5rem;
   @media only screen and (min-width : 1000px), only screen and (orientation: landscape) {
     font-size: 1rem;
