@@ -28,7 +28,10 @@ export default {
       }, {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Satisfy',
-      },
+      }, {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Barlow',
+      }
     ],
   },
 }
