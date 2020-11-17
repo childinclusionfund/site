@@ -1,13 +1,10 @@
 <template>
   <div class="header">
-    <div id="header" class="header__text">
-      <h1>Child Inclusion Fund</h1>
-    </div>
+    <Logo class="header__logo" />
     <div class="header__sub-text">
       Enhancing and Equalizing the Academic Experience
     </div>
-    <div class="header__logo">
-    </div>
+    <hr>
   </div>
 </template>
 
@@ -29,29 +26,29 @@
   &__text {
     font-family: "Montserrat";
     font-weight: 500;
-    white-space: nowrap;
-    overflow: hidden;
+  }
+
+  &__logo {
+    padding: 1rem;
+    width: auto;
+    @media only screen  and (min-width : 1000px), only screen and (orientation: landscape) {
+      padding: 2rem;
+      height: 6.5rem;
+    }
   }
 
   &__sub-text {
+    padding-top: 1rem;
     font-family: "Satisfy";
     font-weight: 300;
     white-space: nowrap;
     overflow: hidden;
   }
-  h1 { 
-    padding: 1rem 0;
-    margin: 0;
-  }
-  @media only screen  and (min-width : 1000px) {
-    font-size: 2rem;
+  
+  @media only screen  and (min-width : 1000px), only screen and (orientation: landscape) {
+    font-size: 1.5rem;
     flex-direction: row;
-    &__text {
-      padding-left: 2rem;
-    }
-    &__sub-text {
-      padding-left: 5rem;
-    }
+    justify-content: left;
   }
 }
 </style>

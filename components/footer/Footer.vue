@@ -33,10 +33,10 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-color-secondary);
+  background-color: var(--bg-color-footer);
   width: 100%;
   padding: 1rem 0;
-  color: var(--text-color-secondary);
+  color: var(--text-color-footer);
   &__contact-info {
     display: flex;
     flex-direction: row;
@@ -54,7 +54,7 @@
   }
   @media only screen  and (min-width : 1000px), only screen and (orientation: landscape) {
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-end;
     &__legal {
       margin-top: 0;
       margin-left: auto;
