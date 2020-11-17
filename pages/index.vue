@@ -12,7 +12,7 @@
       <Chunk
         overview="How does it work?"
         v-bind:text="[
-          'Child Inclusion Fund teams up with schools who identify children in need of financial assistance, providing funding for expense not traditionally covered, such as:',
+          'Child Inclusion Fund teams up with schools who identify children in need of financial assistance, providing funding for expensee not traditionally covered, such as:',
         ]"
         v-bind:list="[
           {icon: 'fas fa-camera', text: 'Picture Day'},
