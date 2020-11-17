@@ -59,10 +59,16 @@ export default {
     justify-self: left;
     text-align: left;
     padding-right: 1rem;
+    @media only screen and (min-width : 1000px), only screen and (orientation: landscape) {
+      font-size: 1.5rem;
+    }
   }
   &__text {
     flex: 2;
     padding: 1rem;
+    @media only screen and (min-width : 1000px), only screen and (orientation: landscape) {
+      padding: 0 1rem;
+    }
   }
   ul {
     margin-left: 4rem;
@@ -73,9 +79,17 @@ export default {
   li:last-child {
     padding-bottom: 0;
   }
+  @media only screen and (min-width : 1000px), only screen and (orientation: landscape) {
+    font-size: 1rem;
+    padding-top: 1rem;
+    margin-top: 0;
+  }
 }
 .icon__text {
   font-family: 'Rubik', sans-serif;
   font-size: 2.5rem;
+  @media only screen and (min-width : 1000px), only screen and (orientation: landscape) {
+    font-size: 1rem;
+  }
 }
 </style>

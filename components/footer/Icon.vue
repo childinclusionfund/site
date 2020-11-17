@@ -34,7 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 i {
-  color: var(--text-color-secondary);
+  color: var(--text-color-footer);
 }
 .icon {
   display: flex;
