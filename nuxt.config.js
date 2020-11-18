@@ -21,16 +21,10 @@ export default {
     ],
     link: [{
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Rubik',
+        href: 'https://fonts.googleapis.com/css?family=Barlow',
       }, {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Montserrat',
-      }, {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Satisfy',
-      }, {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Barlow',
       }
     ],
   },
