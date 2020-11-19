@@ -38,7 +38,7 @@
   }
 
   &__sub-text {
-    padding-top: 1rem;
+    padding: 1rem;
     font-family: "Satisfy";
     font-weight: 300;
     white-space: nowrap;
