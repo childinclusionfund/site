@@ -10,15 +10,15 @@
         />
       <Icon
         class="contact-info__item"
-        linkUrl="https://fundly.com/child-inclusion-fund-2020"
-        linkLabel="Link to donate to Child Inclusion Fund via Fundly"
+        linkUrl="https://paypal.me/childinclusionfund"
+        linkLabel="Donate to Child Inclusion Fund via Paypal"
         iconClass="fas fa-donate fa-2x"
         label="donate"
         />
       <Icon
         class="contact-info__item"
         linkUrl="mailto:childinclusionfund@gmail.com"
-        linkLabel="Connect with Child Inclusion Fund via E-mail"
+        linkLabel="Connect with Child Inclusion Fund via email"
         iconClass="far fa-envelope fa-2x"
         label="email"
         />

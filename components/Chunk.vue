@@ -67,7 +67,7 @@ export default {
     flex: 2;
     padding: 1rem;
     @media only screen and (min-width : 1000px), only screen and (orientation: landscape) {
-      padding: 0 1rem;
+      padding: 1rem 1rem 0 1rem;
     }
   }
   ul {

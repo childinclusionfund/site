@@ -3,9 +3,11 @@
     <a class="icon__link" aria-label="linkLabel" :href="linkUrl" >
       <i :class="iconClass" class="icon__img"></i>
     </a>
-    <div class="icon__label">
-      {{ label }}
-    </div>
+    <a class="icon__link" aria-label="linkLabel" :href="linkUrl" >
+      <div class="icon__label">
+        {{ label }}
+      </div>
+    </a>
   </div>
 </template>
 
@@ -35,6 +37,10 @@ export default {
 <style lang="scss" scoped>
 i {
   color: var(--text-color-footer);
+}
+a {
+  color: var(--text-color-footer);
+  text-decoration: none;
 }
 .icon {
   display: flex;
