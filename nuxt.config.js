@@ -19,7 +19,8 @@ export default {
         src: 'https://www.googletagmanager.com/gtag/js?id=UA-180193814-1',
       },
     ],
-    link: [{
+    link: [
+      {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Barlow',
       }, {
@@ -28,6 +29,12 @@ export default {
       }, {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Satisfy',
+      }
+    ],
+    meta: [
+      {
+        name: 'facebook-domain-verification',
+        content: '2umslz6p66xfailb39ipmfj6l7n7sd',
       }
     ],
   },
