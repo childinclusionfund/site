@@ -33,6 +33,7 @@ export default {
     ],
     meta: [
       { name: 'facebook-domain-verification', content: '2umslz6p66xfailb39ipmfj6l7n7sd' },
+      { property: 'fb:app_id', content: '400864467824750' },
       { property: 'og:url', content: 'https://childinclusionfund.com' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'Child Inclusion Fund' },
