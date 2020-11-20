@@ -32,10 +32,12 @@ export default {
       }
     ],
     meta: [
-      {
-        name: 'facebook-domain-verification',
-        content: '2umslz6p66xfailb39ipmfj6l7n7sd',
-      }
+      { name: 'facebook-domain-verification', content: '2umslz6p66xfailb39ipmfj6l7n7sd' },
+      { property: 'og:url', content: 'https://childinclusionfund.com' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: 'Child Inclusion Fund' },
+      { property: 'og:description', content: 'Providing financial assistance for Picutre Day, Field Trips, Book Fairs, etc.' },
+      { property: 'og:image', content: 'https://childinclusionfund.com/assets/logo.png' },
     ],
   },
 }
