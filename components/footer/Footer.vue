@@ -33,7 +33,11 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-color-footer);
+  background: rgb(49,44,121);
+  background: linear-gradient( 0deg,
+    rgba(49,44,121,1) 0%,
+    rgba(87,87,175,1) 51%,
+    rgba(0,150,220,1) 100%);
   width: 100%;
   padding: 1rem 0;
   color: var(--text-color-footer);
