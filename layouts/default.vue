@@ -6,6 +6,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    window.dataLayer = window.dataLayer || []
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date())
+    gtag('config', 'UA-180193814-1')
+  },
+}
+</script>
+
 <style lang="scss">
 body {
   --bg-color-main: #FAF3DD;
