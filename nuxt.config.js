@@ -37,7 +37,7 @@ export default {
       { property: 'og:url', content: 'https://childinclusionfund.com' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: 'Child Inclusion Fund' },
-      { property: 'og:description', content: 'Providing financial assistance for Picutre Day, Field Trips, Book Fairs, etc.' },
+      { property: 'og:description', content: 'Providing financial assistance for Picture Day, Field Trips, Book Fairs, etc.' },
       { property: 'og:image', content: 'https://childinclusionfund.com/images/logo--opaque.png' },
     ],
   },
