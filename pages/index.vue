@@ -1,11 +1,12 @@
 <template>
   <div>
-    <ThankYouModal :v-show="showModal"/>
     <OurPurpose />
     <hr>
     <HowDoesItWork />
     <hr>
     <OurReasoning />
+    <hr>
+    <AboutUs />
   </div>
 </template>
 
@@ -13,11 +14,11 @@
 export default {
   computed: {
     showModal() {
-      setTimeout(() => {
-        'toggle'
-        this.$store.commit('modal/toggle')
-      }, 2000)
-      return this.$store.state.modal.show
+      //setTimeout(() => {
+        //'toggle'
+        //this.$store.commit('modal/toggle')
+      //}, 2000)
+      //return this.$store.state.modal.show
     }
   }
 }
