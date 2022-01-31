@@ -1,26 +1,34 @@
-### Our Purpose
+---
+title: Child Inclusion Fund
+description: "Enhancing and Equalizing the Academic Experience"
+---
+
+## Our Purpose
 
 To enhance the academic experience by equalizing opportunities for children in the school setting.
 
+---
 
-### How does it work?
+## How does it work?
 
 Child Inclusion Fund teams up with schools who identify children in need of financial assistance, providing funding for expenses not traditionally covered, such as:
 
-Picture Day
+📷 Picture Day
 
-Field Trips
+🚌 Field Trips
 
-Book Fairs
+📕 Book Fairs
 
-Pajama Day
+🛏 Pajama Day
 
-Spirit Wear
+👕 Spirit Wear
 
-Holiday Gift Shop
+🎁 Holiday Gift Shop
 
+---
 
-### Our Reasoning
+## Our Reasoning
+
 Family income has a varied impact on a child’s well-being.
 While many government and community-run programs assist with basic necessities, not many are available to fund extra experiences in the school setting.
 Some families are forced to choose between purchasing school pictures or buying groceries.
