@@ -1,6 +1,12 @@
 ---
 title: Child Inclusion Fund
-description: "Enhancing and Equalizing the Academic Experience"
+hide_logo: true
+---
+
+![childinclusionfund logo](images/logo.svg)
+
+_Enhancing and Equalizing the Academic Experience_
+
 ---
 
 ## Our Purpose

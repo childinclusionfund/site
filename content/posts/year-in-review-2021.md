@@ -6,4 +6,5 @@ tags: [ 'Year in Review' ]
 featured_image: ''
 description: ''
 site_logo: "/images/logo.svg"
+omit_header_text: true
 ---
