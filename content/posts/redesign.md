@@ -22,7 +22,7 @@ That could have been built into the existing design, but the level of effort to 
 So, the site was re-worked.
 
 Originally custom built with [NuxtJS](https://nuxtjs.org), the site is now using popular static-site generator [Hugo](https://gohugo.io).
-Out-of-the-box blog support, nicely designed template themes (like [ananke](https://themes.gohugo.io/themes/gohugo-theme-ananke/)), and markdown support;
+Out-of-the-box blog support, nicely designed template themes (like currently used [ananke](https://themes.gohugo.io/themes/gohugo-theme-ananke/)), and markdown support;
 these are a few of the features we're leveraging to make the site better for you and easier for us.
 
 The redesign isn't complete though, so there will be some small changes to address things we dislike along the way.

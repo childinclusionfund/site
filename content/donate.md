@@ -9,13 +9,13 @@ We are a registered 501(c)(3) organization, and **do not** use any donations for
 
 ---
 
-#### Through PayPal
+#### PayPal or Venmo
 
-Donations can be made through Paypal [here](https://paypal.me/childinclusionfund)
+Donations can be made through Paypal [here](https://paypal.me/childinclusionfund) or Venmo [here](https://venmo.com/u/childinclusionfund).
 
 ---
 
-#### No cost to you
+#### Amazon Smile
 
 If you're an Amazon shopper, consider donating by purchasing items through [Amazon Smile](https://smile.amazon.com/ch/85-3647903).
 Amazon Smile lets you support charities at **no cost to you**, and the charity you select to support gets a percentage of all Smile-Eligible purchases.
