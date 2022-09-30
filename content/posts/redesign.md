@@ -1,8 +1,9 @@
 ---
 title: 'Site redesign'
 date: 2022-01-29T11:02:24-05:00
-tags: [ 'technical' ]
+tags: [ 'technical', '2022']
 draft: false 
+summary: Technical post about redesigning the website, migrating off of custom build architecture and onto Hugo
 ---
 
 We decided to redesign the site.
@@ -15,7 +16,7 @@ And it didn't look all that great.
 The aesthetics were utilitarian, and were a secondary concern when compared to the content, which was a secondary concern to 'just getting something out there'.
 
 The new site should allow us to post updates about donations coming in, donations going out, and potential events.
-And cool little postsl ike this.
+And cool little posts like this.
 
 That could have been built into the existing design, but the level of effort to support that functionality is very close to that of doing a full redesign.
 
