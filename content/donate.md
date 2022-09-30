@@ -5,22 +5,25 @@ menu: main
 ---
 
 Please consider donating to us.
-We are a registered 501(c)(3) organization, and **do not** use any donations for operating costs of any kind.
+We are a registered 501(c)(3) organization.
 
 ---
 
 #### PayPal or Venmo
 
-Donations can be made through Paypal [here](https://paypal.me/childinclusionfund) or Venmo [here](https://venmo.com/u/childinclusionfund).
+Donations can be made through
+[Paypal](https://paypal.me/childinclusionfund "Paypal us!")
+or
+[Venmo](https://venmo.com/u/childinclusionfund "Venmo us!").
 
 ---
 
 #### Amazon Smile
 
-If you're an Amazon shopper, consider donating by purchasing items through [Amazon Smile](https://smile.amazon.com/ch/85-3647903).
+If you're an Amazon shopper, consider donating by purchasing items through [Amazon Smile](https://smile.amazon.com/ch/85-3647903 "Amazon Smile").
 Amazon Smile lets you support charities at **no cost to you**, and the charity you select to support gets a percentage of all Smile-Eligible purchases.
 
-[This link](https://smile.amazon.com/ch/85-3647903) should help selecting Child Inclusion Fund on the Amazon Smile portal, but you could also search for it manually.
+[This link](https://smile.amazon.com/ch/85-3647903 "Amazon Smile") should help selecting Child Inclusion Fund on the Amazon Smile portal, but you could also search for it manually.
 
 ---
 
@@ -30,7 +33,7 @@ Consider donating through payroll deductions.
 Many employers offer a match program where they will match a certain percentage of donations.
 
 Child Inclusion Fund should be available in most charity databases that employers utilize.
-Please reach out to us [here](mailto:contact-us+charity-databases@childinclusionfund.com) if you see Child Inclusion Fund is not listed!
+Please reach out to us [here](mailto:contact-us+charity-databases@childinclusionfund.com "Email Us!") if you see Child Inclusion Fund is not listed!
 
 ---
 

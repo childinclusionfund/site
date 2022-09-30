@@ -5,7 +5,7 @@ theme = 'ananke'
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -30,3 +30,9 @@ enableRobotsTXT = true
 name = "facebook"
 url = "https://www.facebook.com/childinclusionfund"
 color = "#fefefe"
+
+[schoolYearInReview]
+other = 'School Year In Review'
+
+[summerUpdate]
+other = 'Summer Update'

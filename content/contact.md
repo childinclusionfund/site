@@ -6,7 +6,7 @@ menu: main
 
 You can email us using the form below, or email us directly
 
-[contact-us@childinclusionfund.com](mailto:contact-us@childinclusionfund.com)
+[contact-us@childinclusionfund.com](mailto:contact-us@childinclusionfund.com "Email us!")
 
 You can also mail us via snail mail
 

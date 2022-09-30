@@ -19,6 +19,8 @@ To enhance the academic experience by equalizing opportunities for children in t
 
 Child Inclusion Fund teams up with schools who identify children in need of financial assistance, providing funding for expenses not traditionally covered, such as:
 
+🎺 Musical Instrument Rentals
+
 📷 Picture Day
 
 🚌 Field Trips

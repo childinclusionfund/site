@@ -4,3 +4,21 @@ nav .ananke-socials a {
 footer .ananke-socials a {
   color: #fefefe;
 }
+table {
+  border-collapse: collapse;
+  margin: 1rem 0rem;
+}
+td {
+  border: 1px solid;
+}
+th {
+  border: 2px solid;
+}
+td, th {
+  padding: 0.5rem;
+}
+img[alt=about-us] {
+  width: 50%;
+  border-radius: 10%;
+  float: right;
+}
