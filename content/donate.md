@@ -18,15 +18,6 @@ or
 
 ---
 
-#### Amazon Smile
-
-If you're an Amazon shopper, consider donating by purchasing items through [Amazon Smile](https://smile.amazon.com/ch/85-3647903 "Amazon Smile").
-Amazon Smile lets you support charities at **no cost to you**, and the charity you select to support gets a percentage of all Smile-Eligible purchases.
-
-[This link](https://smile.amazon.com/ch/85-3647903 "Amazon Smile") should help selecting Child Inclusion Fund on the Amazon Smile portal, but you could also search for it manually.
-
----
-
 #### Payroll deductions
 
 Consider donating through payroll deductions.
@@ -39,11 +30,5 @@ Please reach out to us [here](mailto:contact-us+charity-databases@childinclusion
 
 #### Checks
 
-Finally, if you'd prefer to send us a check, please make it out to:
-
-`Child Inclusion Fund`
-
-Checks can then be mailed to:
-
-`1400 Spiess Lane, Warminster, PA 18974`.
+Finally, if you'd prefer to send us a check, please email [contact-us@childinclusionfund.com](mailto:contact-us+donations@childinclusionfund.com "Email Us!") to discuss mailing options.
 
